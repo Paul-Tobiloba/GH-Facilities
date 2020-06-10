@@ -142,6 +142,9 @@ h3{
 }
 
 @media only screen and (max-width: 768px){
+    body{
+        max-width: 768px;
+    }
     .head{
         height: 350px;
     }
@@ -165,7 +168,7 @@ h3{
     .images {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        min-width: 500px;
+ 
     }
     .smaller-img{
         width: 100%;
@@ -174,5 +177,9 @@ h3{
     .Small-txt {
         padding: 10px 30px;
         line-height: 15px;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
     }
 }
